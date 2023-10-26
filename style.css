@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .right-hero {
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
@@ -11,4 +15,31 @@
     position: relative;
     transition: all 1s ease-in-out;
     width: 35rem;
+}
+#home,
+#about,
+#projects,
+#contact,
+#footer{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+#skills{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+    display: grid;
+    place-items: center;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
