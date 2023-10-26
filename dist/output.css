@@ -577,36 +577,32 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-\[100px\] {
-  margin-bottom: 100px;
-}
-
-.mb-\[70px\] {
-  margin-bottom: 70px;
-}
-
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
 
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
+.mb-\[100px\] {
+  margin-bottom: 100px;
 }
 
 .mb-\[25px\] {
   margin-bottom: 25px;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
+.mb-\[70px\] {
+  margin-bottom: 70px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 
 .flex {
@@ -617,12 +613,8 @@ video {
   display: grid;
 }
 
-.h-\[230px\] {
-  height: 230px;
-}
-
-.h-\[320px\] {
-  height: 320px;
+.h-\[520px\] {
+  height: 520px;
 }
 
 .h-\[60px\] {
@@ -631,18 +623,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[420px\] {
-  height: 420px;
-}
-
-.h-\[520px\] {
-  height: 520px;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 .w-\[45\%\] {
@@ -655,6 +635,14 @@ video {
 
 .w-\[50\%\] {
   width: 50%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[600px\] {
+  width: 600px;
 }
 
 .w-\[60px\] {
@@ -670,26 +658,6 @@ video {
 }
 
 .w-full {
-  width: 100%;
-}
-
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[55\%\] {
-  width: 55%;
-}
-
-.w-\[100\%\] {
   width: 100%;
 }
 
@@ -721,24 +689,21 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.gap-14 {
+  gap: 3.5rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-14 {
-  gap: 3.5rem;
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-x-7 {
@@ -753,16 +718,6 @@ video {
 
 .gap-y-\[10px\] {
   row-gap: 10px;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
-.gap-x-5 {
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
 }
 
 .rounded-\[15px\] {
@@ -794,6 +749,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#EAD21A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 210 26 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#ffdc4e\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 220 78 / var(--tw-bg-opacity));
@@ -804,25 +764,8 @@ video {
   background-color: rgb(255 229 28 / var(--tw-bg-opacity));
 }
 
-.bg-\[EAD21A\] {
-  background-color: EAD21A;
-}
-
-.bg-\[\#EAD21A\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 210 26 / var(--tw-bg-opacity));
-}
-
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-cover {
@@ -830,14 +773,29 @@ video {
      object-fit: cover;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
 
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .px-\[14px\] {
   padding-left: 14px;
   padding-right: 14px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .py-2 {
@@ -850,39 +808,14 @@ video {
   padding-bottom: 10px;
 }
 
-.py-\[20px\] {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-\[20px\] {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .py-\[25px\] {
@@ -890,24 +823,12 @@ video {
   padding-bottom: 25px;
 }
 
-.pb-\[20px\] {
-  padding-bottom: 20px;
-}
-
-.pb-\[40px\] {
-  padding-bottom: 40px;
-}
-
-.pb-\[60px\] {
-  padding-bottom: 60px;
-}
-
 .pb-\[100px\] {
   padding-bottom: 100px;
 }
 
-.pr-\[50px\] {
-  padding-right: 50px;
+.pb-\[20px\] {
+  padding-bottom: 20px;
 }
 
 .pr-\[100px\] {
