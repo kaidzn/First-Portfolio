@@ -744,6 +744,10 @@ video {
   row-gap: 10px;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-\[15px\] {
   border-radius: 15px;
 }
@@ -758,14 +762,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.rounded-3xl {
-  border-radius: 1.5rem;
 }
 
 .border-\[3px\] {
